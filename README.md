@@ -19,9 +19,9 @@ Configuring Bucket Permissions: I configured the appropriate permissions for the
 Creating a CloudFront Distribution: I created a CloudFront distribution to serve my website files from edge locations around the world. I specified the S3 bucket as the origin for the distribution and configured cache behavior settings, such as setting the default TTL (Time-to-Live), enabling automatic compression of objects, and disabling Origin Shield.
 
 Technologies Used
-Amazon S3: AWS service for storage of static website files.
-Amazon CloudFront: AWS content delivery service for caching and delivering content from edge locations.
-DNS: Domain Name System for mapping domain names to IP addresses.
-AWS CLI: AWS Command Line Interface for interacting with AWS services using the command line.
-Conclusion
+- Amazon S3: AWS service for storage of static website files.
+- CloudFront: AWS content delivery service for caching and delivering content from edge locations.
+- AWS CLI: AWS Command Line Interface for interacting with AWS services using the command line.
+
+### Conclusion
 Deploying my static website on AWS using S3 and CloudFront has been a rewarding experience. The combination of S3's simplicity and scalability with CloudFront's global content delivery capabilities has helped me deliver my website content quickly and reliably to users worldwide.
