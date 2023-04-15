@@ -23,7 +23,7 @@ aws s3 cp udacity-starter-website/css/ s3://my-715013046770-bucket/css/ --recurs
 aws s3 cp udacity-starter-website/img/ s3://my-715013046770-bucket/img/ --recursive
 ```
 
-!(s3_bucket)[/images/S3_bucket_screenshot.png]
+![s3_bucket](/Images/S3_bucket_screenshot.png)
 
 ## Configuring the S3 Bucket
 
@@ -59,11 +59,11 @@ create a cloud front distribution
 --enable-origin-shield no --compress yes
 ```
 
-!(Cloud_Front)[/images/CloudFront_screenshot.png]
+![Cloud_Front](/Images/CloudFront_screenshot.png)
 
 Note: It may take up to 10 minutes for the CloudFront Distribution to be created.
 
-!(Endpoint)[/images/Endpoint_screenshot.png]
+![Endpoint](/Images/EndPoint_screenshot.png)
 
 - S3 object URl : https://my-715013046770-bucket.s3.amazonaws.com/index.html
 
