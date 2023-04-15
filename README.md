@@ -25,3 +25,5 @@ Technologies Used
 
 ### Conclusion
 Deploying my static website on AWS using S3 and CloudFront has been a rewarding experience. The combination of S3's simplicity and scalability with CloudFront's global content delivery capabilities has helped me deliver my website content quickly and reliably to users worldwide.
+
+A walkthrough can be found in the journal.md file
